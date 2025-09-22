@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Mover
+  - Lvlendbg
+  - Finger
+  - Canvas
+  - RespawnButton
+  - Portal
+  - Anvil
+  - Rotator
+  - playMask
+  - ActiveButton
+  - AchieveWindow
+  - Conductor
+  - AnotherDimension
+  - ModInfoWindow
+  - Bullet
+  - Spike
+  - Apple
+  - BlackHole
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Can_Stay
+  - Water
+  - UI
+  - Player
+  - VisualPhysycs
+  - Live
+  - Ignore_Live
+  - Protect_Zone
+  - IgnoreLiveNMe
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: breakblock
+    uniqueID: 3742547991
+    locked: 0
+  - name: levelSpecial
+    uniqueID: 953449697
+    locked: 0
+  - name: fall_p
+    uniqueID: 2927880921
+    locked: 0
+  - name: portal_light
+    uniqueID: 3407107103
+    locked: 0

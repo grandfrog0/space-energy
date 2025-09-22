@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8327705780088032103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4657386679915174428}
+  - component: {fileID: 9153367089546821568}
+  m_Layer: 0
+  m_Name: Easter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4657386679915174428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8327705780088032103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9153367089546821568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8327705780088032103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5143cfa776f0a674a9278630ceb882bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AdCount: 4
+  head: {fileID: -1046551264, guid: abf83a41c436da74785199c01bc6ce0f, type: 3}
+  eyes: {fileID: -1180612353, guid: abf83a41c436da74785199c01bc6ce0f, type: 3}
+  mouse: {fileID: -1180612353, guid: abf83a41c436da74785199c01bc6ce0f, type: 3}
+  energy: {fileID: 519524561, guid: abf83a41c436da74785199c01bc6ce0f, type: 3}
+  swipe: {fileID: 8300000, guid: 65930fba55e12db4c9b5e258763cdfdd, type: 3}
+  die: {fileID: 8300000, guid: bf36ee858448f83479c5b637b533d38c, type: 3}
+  naming_eng: Easter
+  naming_rus: "\u041F\u0430\u0441\u0445\u0430"
+  hasAnim: 1
+  animed_head: []
+  animed_eyes: []
+  animed_mouse: []
+  animed_energy: []
+  time_head: 0
+  time_eyes: 0
+  time_mouse: 0
+  time_energy: 0
+  tick_head: 0
+  tick_eyes: 0
+  tick_mouse: 0
+  tick_energy: 0

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8327705780088032103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4657386679915174428}
+  - component: {fileID: 9153367089546821568}
+  m_Layer: 0
+  m_Name: Default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4657386679915174428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8327705780088032103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9153367089546821568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8327705780088032103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5143cfa776f0a674a9278630ceb882bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AdCount: 0
+  head: {fileID: 1814272918, guid: db616c25e73501a4b9e5780d737eeada, type: 3}
+  eyes: {fileID: -103320885, guid: 2038fe0f2b11a1145b23462963be0304, type: 3}
+  mouse: {fileID: 1246431613, guid: b68a7269bdc50784799e7ad6e1ef56b2, type: 3}
+  energy: {fileID: -634252826, guid: 55ad3fa9011a88d4a86dbf42fe78eb3a, type: 3}
+  swipe: {fileID: 8300000, guid: b2ae174a30a23b3459a4d6a1f71736d8, type: 3}
+  die: {fileID: 8300000, guid: 4eeb44d893416ce4ba4933438ba58d9c, type: 3}
+  naming_eng: Default
+  naming_rus: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+  hasAnim: 0
+  animed_head: []
+  animed_eyes:
+  - {fileID: 749247398, guid: e17a410fcd6ba1746b0a51b26ce2932e, type: 3}
+  - {fileID: 1758307408, guid: e17a410fcd6ba1746b0a51b26ce2932e, type: 3}
+  - {fileID: 134492445, guid: e17a410fcd6ba1746b0a51b26ce2932e, type: 3}
+  - {fileID: 1269277305, guid: e17a410fcd6ba1746b0a51b26ce2932e, type: 3}
+  animed_mouse: []
+  animed_energy: []
+  time_head: 0
+  time_eyes: 5
+  time_mouse: 0
+  time_energy: 0
+  tick_head: 0
+  tick_eyes: 0.03
+  tick_mouse: 0
+  tick_energy: 0

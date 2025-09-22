@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8327705780088032103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4657386679915174428}
+  - component: {fileID: 9153367089546821568}
+  m_Layer: 0
+  m_Name: Zombie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4657386679915174428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8327705780088032103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9153367089546821568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8327705780088032103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5143cfa776f0a674a9278630ceb882bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AdCount: 4
+  head: {fileID: -756660107, guid: ed37e99016230cc429d486236922e61c, type: 3}
+  eyes: {fileID: -1527900672, guid: ed37e99016230cc429d486236922e61c, type: 3}
+  mouse: {fileID: -812265497, guid: ed37e99016230cc429d486236922e61c, type: 3}
+  energy: {fileID: -1545829618, guid: ed37e99016230cc429d486236922e61c, type: 3}
+  swipe: {fileID: 8300000, guid: 14c60c09f20d3f34c9dcadf2c44c7606, type: 3}
+  die: {fileID: 8300000, guid: 0653c771495adaf4a828af989999065a, type: 3}
+  naming_eng: Zombie
+  naming_rus: "\u0417\u043E\u043C\u0431\u0438"
+  hasAnim: 1
+  animed_head: []
+  animed_eyes:
+  - {fileID: -2059529468, guid: 91e2cf01be4f519469843ad90c0de21d, type: 3}
+  - {fileID: 1933299910, guid: 91e2cf01be4f519469843ad90c0de21d, type: 3}
+  - {fileID: 691652794, guid: 91e2cf01be4f519469843ad90c0de21d, type: 3}
+  - {fileID: 979768088, guid: 91e2cf01be4f519469843ad90c0de21d, type: 3}
+  animed_mouse: []
+  animed_energy: []
+  time_head: 0
+  time_eyes: 4
+  time_mouse: 0
+  time_energy: 0
